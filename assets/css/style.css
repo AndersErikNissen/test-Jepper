@@ -48,3 +48,28 @@ UCN MMDA0920*/
         grid-template-columns: repeat(var(--grid-column-mobil), 1fr);
     }
 }
+
+
+
+
+#one {
+    width: 100%;
+    height: 100vh;
+}
+#two {
+    height: 10vh;
+    width: 100%;
+}
+#two div {
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#three {
+    background-color: black;
+    height: 200vh;
+    width: 100%;
+}
+
+
